@@ -11,18 +11,25 @@
   <title>Ingtrio AB</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/custom.min.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +38,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Ingtrio AB</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="d-inline-block align-top img-brand" src="favicon/favicon-96x96.png">Ingtrio AB</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Meny
         <i class="fa fa-bars"></i>
@@ -96,20 +103,21 @@
           <img class="card-img-top rounded card-shadow" src="./img/web-dev.jpg" alt="Card image cap">
           <div class="card-body ">
             <p class="card-text">Webbutveckling</p>
-            <p><a class="btn btn-default" href="http://webvik.se">Webvik.se</a></p>
+            <p><a class="btn btn-default" href="#contact">Kontakta oss</a></p>
           </div>
         </div>
         <div class="card bg-transparent col-md-4 col-lg-4 px-5" >
-          <img class="card-img-top rounded card-shadow" src="http://via.placeholder.com/250x250" alt="Card image cap">
+          <img class="card-img-top rounded card-shadow" src="./img/manjaro_logo.png" alt="Card image cap">
           <div class="card-body ">
             <p class="card-text">Försäljning av klockor</p>
-            <p><a class="btn btn-default" href="http://manjarowatches.com">Manjáro Watches</a></p>
+            <p><a class="btn btn-default" href="https://manjarowatches.com">Manjáro Watches</a></p>
           </div>
         </div>
         <div class="card bg-transparent col-md-4 col-lg-4 px-5" >
-          <img class="card-img-top rounded card-shadow" src="http://via.placeholder.com/250x250" alt="Card image cap">
+          <img class="card-img-top rounded card-shadow" src="img/business_strategy.jpg" alt="Card image cap">
           <div class="card-body ">
             <p class="card-text">Företagsstrategi</p>
+            <p><a class="btn btn-default" href="#contact">Kontakta oss</a></p>
           </div>
         </div>
       </div>  
@@ -134,7 +142,7 @@
         <div class="card bg-transparent col-md-4 col-lg-4 px-5" >
           <img class="card-img-top rounded-circle" src="img/robin.jpeg" alt="Card image cap">
           <div class="card-body ">
-            <h5 class="card-title">Robin Niwood<br><small>Styrelseordförande</small></h5>
+            <h5 class="card-title">Robin Eklund<br><small>Styrelseordförande</small></h5>
             <p class="card-text"><a href="mailto:robin@ingtrio.se">robin@ingtrio.se</a></p>
           </div>
         </div>
@@ -155,52 +163,69 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-12 card">
-          <h5 class="card-title">Adress</h5>
-          <address class="card-text">
-            <strong>Ingtrio AB</strong>
-            <br>
-            Monsungatan 24
-            <br>
-            417 66, Göteborg
-            <br>
-            Sverige 
-          </address>
-        </div>
-        <div class="col-lg-4 col-sm-12 card">
-          <h5 class="card-title">Bolagsinformation</h5>
-          <div class="card-text">
-            <strong>Organisationsnummer</strong><br>
-            559154-1361
-            <br><br>
-            Innehar F-skattsedel
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <h5 class="card-title">Adress</h5>
+            <address class="card-text">
+              <strong>Ingtrio AB</strong>
+              <br>
+              Monsungatan 24
+              <br>
+              417 66, Göteborg
+              <br>
+              Sverige 
+            </address>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-12 card">
-          <h5 class="card-title">Sociala Medier</h5>
-          <ul class="list-inline banner-social-buttons">
-            <li class="list-inline-item">
-              <a class="btn btn-circle btn-default" href="https://instagram.com/manjarowatches">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-circle btn-default" href="https://facebook.com/manjarowatches">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-circle btn-default" href="https://instagram.com/manjarowatches">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-          <div class="card-text">
+        <div class="col-lg-4 col-sm-12 mt-3 mt-lg-0">
+          <div class="card">
+            <h5 class="card-title">Bolagsinformation</h5>
+            <div class="card-text">
+              <strong>Organisationsnummer</strong><br>
+              559154-1361
+              <br><br>
+              Innehar F-skattsedel
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 mt-3 mt-lg-0">
+          <div class="card">
+            <h5 class="card-title">Sociala Medier</h5>
+            <div class="row">
+              <div class="col-4 col-lg-2 text-center">
+                <a class="btn btn-circle btn-default" href="https://instagram.com/manjarowatches">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+              <div class="col-4 col-lg-2 text-center">
+                <a class="btn btn-circle btn-default" href="https://facebook.com/manjarowatches">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </div>
+              <div class="col-4 col-lg-2 text-center">
+                <a class="btn btn-circle btn-default" href="https://www.linkedin.com/company/ingtrio/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <!-- <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                
+              </li>
+              <li class="list-inline-item">
+                
+              </li>
+              <li class="list-inline-item">
+                
+              </li>
+            </ul> -->
+            <div class="card-text">
+            </div>
           </div>
         </div>
       </div>
       <div class="copyright text-center">
-        <p>Copyright &copy; Ingtrio AB 2018</p>
+        <p>Copyright &copy; Ingtrio AB <span id="currentYear"></span></p>
       </div>
     </div>
   </footer>
@@ -219,6 +244,9 @@
   <script src="js/grayscale.js"></script>
   <script src="js/mail.js"></script>
   <script src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript">
+    $("#currentYear").text( (new Date).getFullYear() );
+  </script>
 
 </body>
 
