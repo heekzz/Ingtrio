@@ -1,0 +1,10 @@
+env:
+  global:
+  - 'FTP_USER=[user]'
+  - 'FTP_PASSWORD=[password]'
+  - 'FTP_DOMAIN=[domain]'
+
+after_success:
+  - echo "${FTP_USER}"
+  - echo "${FTP_DOMAIN}"
+  - curl -T ./* "ftp://${user}:${password}@${domain}:21/ingtrio.se/public_html/"
